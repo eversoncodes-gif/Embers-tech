@@ -1,0 +1,296 @@
+*{
+    margin:0 ;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+ font-family:  'Poppins', sans-serif;
+ color: #1f2937;
+}
+
+.topo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: 0 8px 16px lch(0% 0 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 5%;
+    background-color: white;
+    }
+
+    .logo{
+        flex: 20%;
+    }
+.logo h1{
+font-size: 30px;
+text-align: center;
+font-weight: 600;
+text-transform: capitalize;
+}
+.logo p{
+    text-align: center;
+    font-style: italic;
+}
+
+
+.nav-bar{
+    flex: 80%;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.nav-bar ul li{
+
+margin-right: 2%;
+/* box-shadow: 0 4px 10px rgba(green) ; */
+}
+.nav-bar a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+}
+
+.nav-bar a:hover{
+color: rgb(125, 227, 125);
+border-top: 5px solid rgb(14, 14, 134);
+
+}
+
+.hero{
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+/* border: 5px solid green; */
+flex: 40%;
+margin-left: 5%;
+align-items: center;
+justify-content: space-between;
+}
+
+.hero-text h1{
+font-size: 60px;
+letter-spacing: 9px;
+text-align: center;
+font-weight: 700;
+margin-bottom: 4%;
+margin-top: 4%;
+}
+.hero-text h2{
+letter-spacing: 11px;
+text-align: center;
+font-size: 28px;
+
+}
+
+.hero-text p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: lab(27.97% 0 0);
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.botao-en{
+background-image: linear-gradient(to right,rgb(19, 19, 146), rgb(3, 3, 56));
+padding: 14px 24px;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 10px;
+font-size: 22px;
+font-weight: bold;
+}
+
+.botao-en:hover{
+background-image: linear-gradient(to right, rgb(19, 169, 157),blue);
+transform: scale(3.05);
+}
+
+
+
+.hero-img{
+    flex: 40%;
+    /* border: 5px solid red; */
+    margin-right: 5%;
+    text-align: center;
+}
+.hero-img img{
+width: 100%;
+max-width: 600px;
+border-radius: 20px;
+}
+
+.about{
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-img{
+    flex: 40%;
+    /* border: 3px solid blue; */
+    margin-left: 10%;
+}
+.about-text{
+    flex: 40%;
+    margin-right: 5%;
+}
+.about-text h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+.about-text p{
+    margin-top: 15px;
+text-indent: 18px;
+font-weight: 300;
+font-size: 20px;
+}
+.servicos{
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.servicos h2{
+text-align: center;
+font-weight: bold;
+font-size: 40px;
+}
+.cards{
+display: flex;
+gap: 20px;
+
+justify-content: space-between;
+align-items: center;
+}
+.card{
+    flex: 1;
+    box-shadow: 0 11px 14px rgb(45, 137, 204);
+    min-width: 250px;
+ transition: 0.5s;   
+padding: 20px; 
+border-radius: 30px;
+
+}
+
+
+
+.card img{
+    width: 100%;
+    min-width: 23px;
+    max-width: 40%;
+    border-radius: 20px;
+}
+.card a{
+    display: inline-flex;
+    font-size: 12px;
+    border-radius: 18px;
+    background-color: rgb(69, 34, 174);
+    font-weight: bold;
+    padding: 5px;
+color: white;
+}
+
+.card:hover{
+background-color: aquamarine;
+color: hsl(0, 0%, 0%);
+transform: translateY(-7px);
+cursor: pointer;
+}
+
+
+.project{
+    /* background-color: aqua; */
+    
+}
+.project h2{
+    text-align: center;
+    font-size: 40px;
+}
+.project p{
+    font-size: 21px;
+    font-weight: 300;
+    text-indent: 14px;
+    margin-left: 2%;
+    line-height: 1.5;
+  
+}
+.project a{
+    text-decoration: none;
+    background-image: radial-gradient(rgb(36, 165, 225),aqua);
+    border-radius: 30px;
+    padding: 5px 2px;
+}
+
+.contacts{
+    text-align: center;
+    padding: 12px;
+    line-height: 1.5;
+}
+
+.contacts p{
+    margin-top: 3px;
+   margin-bottom: 1%;
+}
+.email{
+display: inline;
+background-image: linear-gradient(to right, blue,aqua);
+padding: 10px;
+gap: 3px;
+border-radius: 17px;
+color: white;
+text-decoration: none;
+transition: 0.4s;
+}
+.email:hover{
+background-image: linear-gradient(to right,rgb(75, 233, 233), hsl(240, 78%, 54%));
+transform: scaleX(5);
+}
+
+.whats{
+    background-color: rgb(75, 162, 233);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    padding: 14px ;
+    color: white;
+    border-radius: 50px;
+}
+
+.whats:hover{
+background-image: radial-gradient(aqua,rgb(86, 215, 185));
+
+}
+
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(47, 47, 162),blue);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    
+}
