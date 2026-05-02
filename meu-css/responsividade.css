@@ -1,0 +1,40 @@
+@media only screen and (max-width:1005px){
+.nav-bar{
+    display: none;
+}
+.logo{
+    text-align: center;
+}
+.logo p{
+    display: none;
+}
+
+.hero{
+display: block;
+/* align-items: center;
+justify-content: space-between; */
+}
+/* .hero-text{
+    flex: 40%;
+    margin-left: 9%;
+    text-align: start;
+    
+}
+.hero-text h1{
+    font-size: 1px;
+}
+.hero-text p{
+    padding-top: 2%;
+    font-size: 3px;
+    margin-bottom: 12px;
+}
+.btn-en{
+    margin-top: 5%;
+    padding: 2px;
+    
+} */
+.projects{
+    margin: 3% 4% 0 20px ;
+}
+
+}

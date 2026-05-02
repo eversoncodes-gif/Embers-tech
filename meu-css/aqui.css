@@ -6,7 +6,8 @@
 
 body{
  font-family:  'Poppins', sans-serif;
- color: #1f2937;
+ background-color: oklch(96.423% 0.00426 15.817);
+ line-height: 1.5;
 }
 
 .topo{
@@ -58,13 +59,28 @@ margin-right: 2%;
     font-weight: 500;
     font-size: 22px;
     color: black;
+    font-weight: bold;
 }
 
 .nav-bar a:hover{
-color: rgb(125, 227, 125);
+color: #00e5ff;
 border-top: 5px solid rgb(14, 14, 134);
 
 }
+
+#btn-flr{
+background-color: aqua;
+padding: 12px;
+border-radius: 12px;
+
+}
+#btn-flr:hover{
+color: blue;
+padding: 15px;
+}
+
+
+
 
 .hero{
 width: 100%;
@@ -72,6 +88,7 @@ width: 100%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 180px;
 }
 
 .hero-text{
@@ -83,26 +100,25 @@ justify-content: space-between;
 }
 
 .hero-text h1{
-font-size: 60px;
-letter-spacing: 9px;
-text-align: center;
+font-size: 30px;
+letter-spacing: 6px;
 font-weight: 700;
-margin-bottom: 4%;
-margin-top: 4%;
+/* margin-bottom: 4%;
+margin-top: 4%; */
 }
-.hero-text h2{
+/* .hero-text h2{
 letter-spacing: 11px;
 text-align: center;
 font-size: 28px;
 
-}
+} */
 
 .hero-text p{
-    margin-top: 15px;
+    /* margin-top: 18px; */
     font-size: 20px;
     color: lab(27.97% 0 0);
     font-weight: 600;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .botao-en{
@@ -118,7 +134,7 @@ font-weight: bold;
 
 .botao-en:hover{
 background-image: linear-gradient(to right, rgb(19, 169, 157),blue);
-transform: scale(3.05);
+transform: scale(1.05);
 }
 
 
@@ -164,6 +180,7 @@ border-radius: 20px;
 text-indent: 18px;
 font-weight: 300;
 font-size: 20px;
+text-align: center;
 }
 .servicos{
     padding: 80px 5%;
@@ -178,7 +195,6 @@ font-size: 40px;
 .cards{
 display: flex;
 gap: 20px;
-
 justify-content: space-between;
 align-items: center;
 }
@@ -193,13 +209,13 @@ border-radius: 30px;
 }
 
 
-
+/* 
 .card img{
     width: 100%;
     min-width: 23px;
-    max-width: 40%;
+    
     border-radius: 20px;
-}
+} */
 .card a{
     display: inline-flex;
     font-size: 12px;
@@ -217,30 +233,71 @@ transform: translateY(-7px);
 cursor: pointer;
 }
 
+.other{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    overflow-x: scroll;
+}
+
+
 
 .project{
     /* background-color: aqua; */
+    display: inline-flexbox;
+    text-align: center;
     
 }
 .project h2{
     text-align: center;
     font-size: 40px;
 }
-.project p{
-    font-size: 21px;
-    font-weight: 300;
-    text-indent: 14px;
-    margin-left: 2%;
-    line-height: 1.5;
-  
+.project-card{
+
+    text-align: center;
+    /* border: 5px solid green; */
+    box-shadow: 0 5px 14px rgb(14, 38, 66);
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 22px;
+}
+.project-card h3{
+    font-size: 26px;
+}
+.project-card p{
+    font-size: 15px;
 }
 .project a{
     text-decoration: none;
-    background-image: radial-gradient(rgb(36, 165, 225),aqua);
+    background-image: linear-gradient(rgb(36, 165, 225),aqua);
     border-radius: 30px;
     padding: 5px 2px;
 }
 
+
+.why{
+    padding-left: 5%;
+    display: inline-flexbox;
+    padding-top: 5%;
+    /* align-items: center;
+    justify-content: center;
+     */
+}
+.why h2{
+    text-align: center;
+    font-size: 30px;
+}
+.why ul{
+    text-align: center;
+    list-style: none;
+}
+
+.why ul li{
+    gap: 20px;
+    font-size: 18px;
+}
 .contacts{
     text-align: center;
     padding: 12px;
