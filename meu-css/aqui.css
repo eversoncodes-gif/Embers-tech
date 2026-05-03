@@ -290,13 +290,22 @@ cursor: pointer;
     font-size: 30px;
 }
 .why ul{
+  display: flex;
     text-align: center;
     list-style: none;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .why ul li{
-    gap: 20px;
-    font-size: 18px;
+  
+    
+    font-size: 15px;
+}
+.why ul li i{
+    font-size: 20px;
+    color: rgb(0, 110, 255);
+    padding-bottom: 4%;
 }
 .contacts{
     text-align: center;
