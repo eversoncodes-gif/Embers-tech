@@ -163,10 +163,13 @@ border-radius: 20px;
     flex-wrap: wrap;
 }
 
-.about-img{
+.about-vid{
     flex: 1;
     /* border: 3px solid blue; */
     margin-left: 10%;
+}
+.about-vid a{
+    text-align: center;
 }
 .about-text{
     flex: 2;

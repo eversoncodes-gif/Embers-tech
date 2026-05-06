@@ -2,7 +2,7 @@
     .nav-bar{
         display: none;
     }
-
+.logo p{display: none;}
     .hero{
         flex-direction: column;
         text-align: center;
@@ -10,6 +10,9 @@
 .hero-text{
     margin-bottom: 20px;
     
+}
+.section{
+    margin: 100px;
 }
 .botao-en{
 background-image: linear-gradient(to right,rgb(19, 19, 146), rgb(3, 3, 56));
