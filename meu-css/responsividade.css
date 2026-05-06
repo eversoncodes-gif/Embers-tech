@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media screen and (min-width:600px) {
     .nav-bar{
         display: none;
     }
@@ -27,7 +27,7 @@ font-weight: bold;
     margin: 0 12px 13px 20px;
 }
 .about{
-    flex-direction: wrap;
+    flex-direction: column;
 
 }
 .why ul{
