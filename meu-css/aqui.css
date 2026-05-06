@@ -200,6 +200,7 @@ display: flex;
 gap: 20px;
 justify-content: space-between;
 align-items: center;
+margin-top: 3%;
 }
 .card{
     flex: 1;
@@ -210,6 +211,11 @@ padding: 20px;
 border-radius: 30px;
 text-align: center;
 
+}
+.card i{ 
+    font-size: 64px;
+    color: rgb(0, 110, 255);
+    margin-bottom: 15px;
 }
 
 
@@ -256,7 +262,7 @@ cursor: pointer;
     font-size: 40px;
 }
 .project-card{
-
+ cursor: pointer;
     text-align: center;
     /* border: 5px solid green; */
     box-shadow: 0 5px 14px rgb(14, 38, 66);
@@ -280,6 +286,10 @@ cursor: pointer;
     padding: 5px 2px;
 }
 
+.project-card:hover{
+    background-color: bisque;
+    transform: scaleX(1.0);
+}
 
 .why{
     padding-left: 5%;

@@ -30,5 +30,12 @@ font-weight: bold;
     flex-direction: wrap;
 
 }
+.why ul{
+    flex-direction: row;
+}
+.why ul li{
+    margin-top: 20px;
+    
+}
     
 }
