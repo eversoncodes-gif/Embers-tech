@@ -2,6 +2,7 @@
     .nav-bar{
         display: none;
     }
+    .logo{text-align: center;}
 .logo p{display: none;}
     .hero{
         flex-direction: column;
