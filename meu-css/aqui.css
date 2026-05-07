@@ -25,7 +25,17 @@ body{
     justify-content: space-between;
     width: 100%;
     padding: 15px 5%;
-    background-color: white;
+    background-color: oklch(97.01% 0.00703 303.755);
+    }
+
+    .menu-toggle{
+ 
+ font-size: 30px;
+ cursor: pointer;
+
+    }
+    .active{
+        display: block;
     }
 
     .logo{
@@ -115,7 +125,7 @@ justify-content: space-between;
 .hero-text h1{
 font-size: clamp(20px, 6vw,30px);
 letter-spacing: 4px;
-font-weight: 690;
+font-weight: 700;
 /* margin-bottom: 4%;
 margin-top: 4%; */
 }
