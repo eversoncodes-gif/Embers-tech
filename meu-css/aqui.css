@@ -12,6 +12,7 @@ body{
  font-family:  'Poppins', sans-serif;
  background-color: oklch(96.423% 0.00426 15.817);
  line-height: 1.5;
+ overflow-x: hidden;
 }
 
 .topo{
@@ -39,7 +40,11 @@ text-transform: capitalize;
 .logo p{
     text-align: center;
     font-style: italic;
+    color: blue;
 }
+/* .ever{
+    color: blue;
+} */
 
 
 .nav-bar{
@@ -87,24 +92,24 @@ padding: 15px;
 
 
 .hero{
-width: 100%;
+/* background-image: linear-gradient(to right, rgb(9, 9, 76),rgb(12, 12, 122)); */
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 180px;
+    padding: 150px 5%;
     gap: 20px;
     margin: auto auto;
+    height: fit-content ;
 }
 
 .hero-text{
 /* border: 5px solid green; */
+
 flex: 1;
-margin-left: 2%;
 align-items: center;
 justify-content: space-between;
-
-
 }
 
 .hero-text h1{
@@ -118,7 +123,7 @@ margin-top: 4%; */
 
 .hero-text p{
     /* margin-top: 18px; */
-    font-size: 19px;
+    font-size: 20px;
     color: lab(27.97% 0 0);
     font-weight: 500;
     margin-bottom: 3%;
@@ -151,9 +156,11 @@ transform: scale(1.05);
 .hero-img img{
 width: 100%;
 max-width: 600px;
-border-radius: 20px;
+border-radius: 10px;
+height: auto;
 }
 
+/* about here my self and project */
 .about{
     /* border: 5px solid green; */
     display: flex;
@@ -178,7 +185,7 @@ border-radius: 20px;
 .about-text h2{
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     
 }
 .about-text p{
@@ -186,8 +193,9 @@ border-radius: 20px;
 text-indent: 18px;
 font-weight: 300;
 font-size: 20px;
-text-align: center;
+
 }
+/* servicos aqui */
 .servicos{
     padding: 80px 5%;
     text-align: center;
@@ -196,7 +204,8 @@ text-align: center;
 .servicos h2{
 text-align: center;
 font-weight: bold;
-font-size: 40px;
+font-size: 25px;
+color: blue;
 }
 .cards{
 display: flex;
@@ -249,9 +258,13 @@ cursor: pointer;
 .other{
     padding-top: 3%;
     padding-bottom: 2%;
-    overflow-x: scroll;
+    }
+/* .other .cards{
+    overflow: hidden;
 }
-
+::-webkit-scrollbar{
+    navigation: none;
+} */
 
 
 .project{
@@ -265,6 +278,7 @@ cursor: pointer;
     font-size: 40px;
 }
 .project-card{
+    width: 70%;
  cursor: pointer;
     text-align: center;
     /* border: 5px solid green; */
@@ -323,16 +337,29 @@ cursor: pointer;
     color: rgb(0, 110, 255);
     padding-bottom: 4%;
 }
+section{
+    margin-top: 55px;
+}
 .contacts{
+    align-items: center;
     text-align: center;
     padding: 12px;
     line-height: 1.5;
 }
 
+
+/* contactos */
 .contacts p{
     margin-top: 3px;
    margin-bottom: 1%;
 }
+/* 
+.call{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: auto auto;
+} */
 .email{
 display: inline;
 background-image: linear-gradient(to right, blue,aqua);
@@ -345,7 +372,7 @@ transition: 0.4s;
 }
 .email:hover{
 background-image: linear-gradient(to right,rgb(75, 233, 233), hsl(240, 78%, 54%));
-transform: scaleX(5);
+transform: scaleX(0.9);
 }
 
 .whats{

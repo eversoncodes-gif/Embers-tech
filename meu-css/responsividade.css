@@ -1,4 +1,4 @@
-@media screen and (max-width:700px) {
+@media screen and (max-width:643px) {
     .nav-bar{
         display: none;
     }
@@ -34,12 +34,18 @@ font-weight: bold;
     flex-direction: column;
 
 }
+ .cards{
+    flex-direction: column;
+} 
+ 
+
+/* 
 .why ul{
     flex-direction: row;
 }
 .why ul li{
     margin-top: 20px;
     
-}
+} */
     
 }
