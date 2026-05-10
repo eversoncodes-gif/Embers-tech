@@ -43,7 +43,7 @@ cursor: pointer;
 /* section{
     margin: 100px;
 } */
-.botao-en{
+/* .botao-en{
 background-image: linear-gradient(to right,rgb(19, 19, 146), rgb(3, 3, 56));
 padding: 2pc;
 color: white;
@@ -52,7 +52,7 @@ text-transform: uppercase;
 border-radius: 9px;
 font-size: 12px;
 font-weight: bold;
-}
+} */
 
 .hero-img {
     text-align: center;
