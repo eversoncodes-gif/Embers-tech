@@ -47,6 +47,8 @@ text-transform: capitalize;
 }
 .menu-toggle{
 display: none;    
+border: none;
+
 }
 /* .ever{
     color: blue;
@@ -113,7 +115,7 @@ padding: 15px;
 }
 
 
-
+/* header na minha pagina web com funcao na minha web */
 
 .hero{
 /* background-image: linear-gradient(to right, rgb(9, 9, 76),rgb(12, 12, 122)); */
@@ -161,6 +163,7 @@ text-decoration: none;
 text-transform: uppercase;
 border-radius: 10px;
 font-size: 22px;
+/* display: inline-block; */
 font-weight: bold;
 }
 
@@ -422,20 +425,19 @@ transform: scaleX(0.9);
 }
 
 .whats{
-    background-color: rgb(75, 162, 233);
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 5px;
     text-decoration: none;
     padding: 14px ;
     color: white;
-    border-radius: 50px;
+ 
 }
-
+/* 
 .whats:hover{
-background-image: radial-gradient(aqua,rgb(86, 215, 185));
+ge: radial-gradient(aqua,rgb(86, 215, 185));
 
-}
+} */
 
 
 footer{
