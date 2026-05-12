@@ -29,11 +29,23 @@ body{
     }
 
     
-    
+    /*aqui e tudo inerente a logo, desde as cores e muito mais   */
 
     .logo{
         flex: 20%;
     }
+    .ever{
+        color: rgb(7, 7, 136)
+    }
+    .lda{
+        color:  blue;
+    }
+    
+.menu-toggle{
+display: none;    
+border: none;
+color: blue;
+}
 .logo h1{
 font-size: 30px;
 text-align: center;
@@ -44,11 +56,6 @@ text-transform: capitalize;
     text-align: center;
     font-style: italic;
     color: blue;
-}
-.menu-toggle{
-display: none;    
-border: none;
-
 }
 /* .ever{
     color: blue;
