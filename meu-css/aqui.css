@@ -10,36 +10,39 @@ html{
 
 body{
 font-family:  'Poppins', sans-serif;
- background-color: oklch(96.423% 0.00426 15.817);
+background-color: white;
  line-height: 1.5;
  overflow-x: hidden;
 }
 
 .topo{
+backdrop-filter: blur(10px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     position: fixed;
     top: 0;
     right: 0;
-    box-shadow: 0 8px 16px lch(0% 0 0 / 0.604);
+    box-shadow: 0 8px 10px oklch(0% 0 0 / 0.817);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 15px 5%;
-    background-color: oklch(97.01% 0.00703 303.755);
+    background-color: oklch(97.01% 0.00703 303.755 / 0.991);
+    
     }
 
     
     /*aqui e tudo inerente a logo, desde as cores e muito mais   */
 
     .logo{
-        flex: 20%;
+        flex: 1;
+        /* border: 5px solid red; */
     }
     .ever{
         color: rgb(7, 7, 136)
     }
-    .lda{
-        color:  blue;
-    }
+ 
     
 .menu-toggle{
 display: none;    
@@ -47,7 +50,7 @@ border: none;
 color: blue;
 }
 .logo h1{
-font-size: 30px;
+font-size: 27px;
 text-align: center;
 font-weight: 600;
 text-transform: capitalize;
@@ -55,34 +58,12 @@ text-transform: capitalize;
 .logo p{
     text-align: center;
     font-style: italic;
-    color: blue;
+    color: rgb(8, 40, 99);
 }
-/* .ever{
-    color: blue;
-} */
-
-
-/* menu reposivo */
-/* button{
-        font-size: 20px;
-        padding: 3px ;
-        /* background-color: rgb(48, 229, 220);} */
-    
-
-    /* .menu-toggle{
- display: none; 
- font-size: 10px;
- cursor: pointer;
- }
-     */
- /* .active{
-        display: block;
-}/* fechanento do menu */
-    
-/* fim do menu toogle */
 
 .nav-bar{
-    flex: 80%;
+    /* border: 4px solid green; */
+    flex:3;
     scroll-behavior: smooth;
 }
 
@@ -111,14 +92,15 @@ border-top: 5px solid rgb(14, 14, 134);
 }
 
 #btn-flr{
-background-color: aqua;
-padding: 12px;
-border-radius: 12px;
+background-color: rgb(14, 4, 123);
+padding: 10px;
+border-radius: 8px;
+color: white;
 
 }
 #btn-flr:hover{
-color: blue;
-padding: 15px;
+background-color: aqua;
+
 }
 
 
@@ -169,7 +151,7 @@ color: white;
 text-decoration: none;
 text-transform: uppercase;
 border-radius: 10px;
-font-size: 22px;
+font-size: 20px;
 /* display: inline-block; */
 font-weight: bold;
 }
@@ -285,12 +267,13 @@ align-items: center;
 margin-top: 3%;
 }
 .card{
+    
     flex: 1;
-    box-shadow: 0 11px 14px rgb(45, 137, 204);
+    box-shadow: 0 8px 13px rgb(0, 0,0,0.08);
     min-width: 250px;
  transition: 0.5s;   
 padding: 20px; 
-border-radius: 30px;
+border-radius: 10px;
 text-align: center;
 
 }
@@ -324,34 +307,56 @@ color: hsl(0, 0%, 0%);
 transform: translateY(-7px);
 cursor: pointer;
 }
+/* ca para seccoes respirarem */
 
+section{
+    padding: 100px 5%;
+}
+
+/* aqui sao os outros servicos  */
 .other{
+    
+     
     padding-top: 3%;
-    padding-bottom: 2%;
+    padding-bottom: 2%; 
     }
-/* .other .cards{
-    overflow: hidden;
+
+
+ .other .cards{
+    /* border: 4px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 ::-webkit-scrollbar{
     navigation: none;
-} */
+} 
 
-
+/* aqui e a parte do prpjecto */
 .project{
     /* background-color: aqua; */
     display: inline-flexbox;
     text-align: center;
     
 }
+
+
+
+
 .project h2{
     text-align: center;
     font-size: 40px;
 }
+/* .project-acg{
+    border: 6px solid green;
+    height: 300px;
+    background-image: url();
+} */
+
 .project-card{
     width: 70%;
  cursor: pointer;
     text-align: center;
-    /* border: 5px solid green; */
     box-shadow: 0 5px 14px rgb(14, 38, 66);
     display: inline-flex;
     flex-flow: column;
@@ -369,8 +374,9 @@ cursor: pointer;
 .project a{
     text-decoration: none;
     background-image: linear-gradient(rgb(36, 165, 225),aqua);
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 5px 2px;
+    
 }
 
 .project-card:hover{
@@ -407,9 +413,6 @@ cursor: pointer;
     color: rgb(0, 110, 255);
     padding-bottom: 4%;
 }
-section{
-    margin-top: 55px;
-}
 .contacts{
     align-items: center;
     text-align: center;
@@ -420,7 +423,8 @@ section{
 
 /* contactos */
 .contacts p{
-    margin-top: 3px;
+    
+    margin-top: 3%;
    margin-bottom: 1%;
 }
 /* 
@@ -464,7 +468,7 @@ ge: radial-gradient(aqua,rgb(86, 215, 185));
 footer{
     text-align: center;
     background-image: linear-gradient(180deg,blue,rgb(6, 6, 87),rgb(3, 3, 26));
-    height: 100px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     color:white;

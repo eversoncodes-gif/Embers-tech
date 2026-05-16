@@ -1,16 +1,17 @@
 @media screen and (max-width:769px) {
-.topo{
+/* parte do  topo */
+    .topo{
 flex-wrap: wrap;
 padding: 15px;
 }    
-
+.logo p{display: none;}
 .logo h1{
-    font-size: 25px;
+    font-size: 27px;
     text-align: start;
 
-   
 }
 
+/* aqui e o menu  */
 .menu-toggle{
     font-weight: bold;
    display: block;
@@ -21,6 +22,7 @@ margin-right: 4%;
    
 }
 
+/* essa parte e a parte da nvegacao  */
     .nav-bar{
         display: none;
         width:100%;
@@ -35,7 +37,8 @@ margin-right: 4%;
         padding: 20px 0;
     }
     
- .logo p{display: none;}
+ 
+
     .hero{
         flex-direction: column;
         text-align: center;
@@ -46,24 +49,20 @@ margin-right: 4%;
     margin-bottom: 20px;
     
 }
-/* section{
-    margin: 100px;
-} */
-/* .botao-en{
-background-image: linear-gradient(to right,rgb(19, 19, 146), rgb(3, 3, 56));
-padding: 2pc;
-color: white;
-text-decoration: none;
-text-transform: uppercase;
-border-radius: 9px;
-font-size: 12px;
-font-weight: bold;
-} */
 
 .hero-img {
     text-align: center;
     margin: 0 12px 13px 20px;
 }
+
+/*  aqui o btn do hero */
+
+.botao-en{
+padding: 8px 16px;
+color: white;
+
+}
+
 .about{
     flex-direction: column;
 
@@ -76,14 +75,5 @@ font-weight: bold;
     gap: 20px;
 }
  
-
-/* 
-.why ul{
-    flex-direction: row;
-}
-.why ul li{
-    margin-top: 20px;
-    
-} */
-    
+   
 }
