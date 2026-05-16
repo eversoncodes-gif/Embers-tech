@@ -9,7 +9,7 @@ html{
 }
 
 body{
- font-family:  'Poppins', sans-serif;
+font-family:  'Poppins', sans-serif;
  background-color: oklch(96.423% 0.00426 15.817);
  line-height: 1.5;
  overflow-x: hidden;
