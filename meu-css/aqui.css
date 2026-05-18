@@ -216,6 +216,7 @@ font-size: 20px;
 
 /* aqui historia minha */
 .historia{
+    /* background-image: url(../img-da-pag-pessoal/textnav.jpeg); */
 margin:auto auto;
 text-indent: 19px;
 width: 90%;
@@ -245,6 +246,7 @@ text-transform: uppercase;
 }
 
 .flex-historia{
+    /* background-image: url(../img-da-pag-pessoal/textnav.jpeg); */
     display: flex;
     justify-content: space-between;
 }
