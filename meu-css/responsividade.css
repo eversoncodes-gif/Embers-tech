@@ -7,13 +7,21 @@
 
 /* Logo */
 .logo h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .logo p{
     display: none;
 }
-
+.botao-en{
+    padding: 8px 16px;
+    color: white;
+}
+.project a {
+padding: 8px 16px;
+    color: white;
+    
+}
 /* Menu Button */
 .menu-toggle{
     display: block;
@@ -31,7 +39,7 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 70%;
+    width: 60%;
     height: 100vh;
 
     background: white;
