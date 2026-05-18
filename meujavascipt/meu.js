@@ -6,8 +6,8 @@ const nav = document.querySelector(".nav-bar");
 menu.addEventListener("click",() =>{
     nav.classList.toggle("active");
     
-    if(nav.classList.contains("active")){
-        alert("Still adapting menu");
-    }
+    // if(nav.classList.contains("active")){
+    //     alert("Still adapting menu");
+    // }
 }); 
 

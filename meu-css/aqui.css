@@ -188,7 +188,7 @@ height: auto;
 }
 
 .about-vid{
-    flex: 1;
+    flex:0;
     /* border: 3px solid blue; */
     margin-left: 10%;
 }
