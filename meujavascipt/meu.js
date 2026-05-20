@@ -10,4 +10,3 @@ menu.addEventListener("click",() =>{
     //     alert("Still adapting menu");
     // }
 }); 
-

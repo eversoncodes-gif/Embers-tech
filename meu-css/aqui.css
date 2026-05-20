@@ -22,13 +22,13 @@ backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     right: 0;
-    box-shadow: 0 8px 10px oklch(0% 0 0 / 0.817);
+    box-shadow: 10px 0 10px oklch(0% 0 0 / 0.817);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 15px 5%;
-    background-color: oklch(97.01% 0.00703 303.755 / 0.991);
+    background-color: oklch(97.01% 0.00703 303.755 / 0.814);
     
     }
 
@@ -124,7 +124,7 @@ background-color: aqua;
 
 flex: 1;
 align-items: center;
-justify-content: space-between;
+/* justify-content: space-between; */
 }
 
 .hero-text h1{
