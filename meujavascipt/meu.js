@@ -10,11 +10,4 @@ menu.addEventListener("click",() =>{
     //     alert("Still adapting menu");
     // }
 }); 
-// let detail = document.querySelector(".esconde");
 
-// let teste= document.getElementById("texto-oculto");
-
-// detail.addEventListener("click", () => {
-//     teste.classList.item("active");
-// });
-// console.log("esse e um teste de js")
