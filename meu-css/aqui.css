@@ -32,6 +32,13 @@ backdrop-filter: blur(10px);
     
     }
 
+/* aqui a parte do menu mobile */
+.menu-toggle{
+display: none;    
+border: none;
+color:#180f4A ;
+}
+
     
     /*aqui e tudo inerente a logo, desde as cores e muito mais   */
 
@@ -39,18 +46,11 @@ backdrop-filter: blur(10px);
         flex: 1;
         /* border: 5px solid red; */
     }
-    .ever{
+    /* .ever{
         color: rgb(7, 7, 136)
-    }
- 
-    
-.menu-toggle{
-display: none;    
-border: none;
-color: blue;
-}
-
+    } */
 .logo h1{
+    color: #180f4A;
 font-size:clamp(27px, 6vw,22px);
 text-align: center;
 font-weight: 600;
@@ -59,7 +59,7 @@ text-transform: capitalize;
 .logo p{
     text-align: center;
     font-style: italic;
-    color: rgb(8, 40, 99);
+    color: rgb(9, 73, 194);
 }
 
 .nav-bar{
@@ -76,32 +76,33 @@ text-transform: capitalize;
 }
 
 .nav-bar ul li{
-gap:14%;
+gap:14px;
+/* padding: 18px 9px; */
 /* box-shadow: 0 4px 10px rgba(green) ; */
 }
 .nav-bar a{
+    padding: 17px 12px;
     text-decoration: none;
-    /* font-weight: 500; */
-    font-size: 22px;
-    color: black;
+    font-weight: 530;
+    font-size: 20px;
+    color:#180f4A;
     
 }
 
 .nav-bar a:hover{
-color: blue;
-border-top: 5px solid rgb(14, 14, 134);
+color:#180f4A ;
+border-top: 5px solid #180f4A;
 }
 
 #btn-flr{
-background-color: rgb(14, 4, 123);
-padding: 10px;
-border-radius: 8px;
-color: white;
+background-color: #180f4A;
+border-radius: 6px;
+color: whitesmoke;
 
 }
 
 #btn-flr:hover{
-background-color: aqua;
+background-color: rgb(9, 73, 194);
 
 }
 
@@ -118,7 +119,7 @@ background-color: aqua;
     padding: 150px 5%;
     gap: 20px;
     margin: auto auto;
-    height: fit-content ;
+    height: fit-content;
 }
 
 .hero-text{
@@ -130,6 +131,7 @@ flex: 1;
 }
 
 .hero-text h1{
+    color: #180f4A;
 font-size: clamp(20px, 6vw,30px);
 letter-spacing: 4px;
 font-weight: 700;
@@ -142,7 +144,7 @@ margin-top: 4%; */
 .hero-text p{
     /* margin-top: 18px; */
     font-size: 20px;
-    color: lab(27.97% 0 0);
+    color: lch(11.1% 1.53 19.73);
     font-weight: 500;
     margin-bottom: 2%;
 }
@@ -206,6 +208,7 @@ box-shadow: -2px 8px 14px hwb(240 34% 15%);
 .about-text h2{
     text-align: center;
     font-weight: bold;
+    color: #180f4A;
     font-size: 40px;
     
 }
@@ -239,6 +242,10 @@ padding-top:20px;
 h2{
     text-align: center;
 }
+/* .esconde{
+    border: 3px solid  blue;
+    display: none;
+} */
 .historia a{
     display: inline-block;
 /* background-color: rgb(5, 7, 97); */

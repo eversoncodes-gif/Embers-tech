@@ -111,4 +111,18 @@ section{
     gap: 20px;
 }
 
+/* teste de esconder documentos */
+/* .esconde{
+display: block;
+font-size: 30px;
+border-radius: 17px;
+background-color: blue;
+padding: 8px 16px;
+}
+
+#texto-oculto{
+    display: none;
+} */
+
+
 }
