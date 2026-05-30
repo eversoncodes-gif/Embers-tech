@@ -102,7 +102,7 @@ color: whitesmoke;
 }
 
 #btn-flr:hover{
-background-color: rgb(9, 73, 194);
+background-color: rgba(104, 19, 183, 0.989);
 
 }
 
@@ -111,7 +111,7 @@ background-color: rgb(9, 73, 194);
 
 .hero{
 /* background-image: linear-gradient(to right, rgb(9, 9, 76),rgb(12, 12, 122)); */
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,15 +171,15 @@ transform: scale(1.05);
 .hero-img{
     flex: 1;
     /* border: 5px solid red; */
-    margin-right: 5%;
+    /* margin-right: 5%; */
     text-align: center;
 }
 .hero-img img{
 width: 100%;
 /* max-width: 600px; */
-border-radius: 5px;
+border-radius: 10px;
 height: auto;
-box-shadow: -2px 8px 14px hwb(240 34% 15%);
+box-shadow: 2px 8px 14px rgba(0,0,0,0,0.5);
 }
 
 
@@ -190,8 +190,7 @@ box-shadow: -2px 8px 14px hwb(240 34% 15%);
     justify-content: space-between;
     align-items: center; */
     gap: 20px;
-    flex-wrap: wrap;
-}
+    }
 
 /* .about-vid{
     flex:0;
@@ -243,6 +242,25 @@ padding-top:20px;
 h2{
     text-align: center;
 }
+
+/* .text-historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lts{
+flex: 2;
+
+}
+
+.lts-img{
+    flex: 1;
+}
+.lts-img img{
+max-width: 90%;
+border-radius: 20px;
+
+} */
 /* .esconde{
     border: 3px solid  blue;
     display: none;
@@ -373,18 +391,24 @@ section{
 } */
 
 .project-card{
-   display: flex;
-   
+   display: block;
     width: 100%;
  cursor: pointer;
+ min-width: 250px;
     text-align: center;
-    box-shadow: 0 5px 14px rgba(2, 3, 3, 0.707);
+    box-shadow:  0 8px -13px rgb(0, 0,0,0.08);
     display: inline-flex;
+    transition:  1.5s;
     flex-flow: column;
     align-items: center;
     justify-content: flex-end;
-    padding: 20px;
-    border-radius: 22px;
+    /* padding: 20px; */
+    border-radius: 10px;
+}
+
+.project-card img{
+max-width: 114px;
+
 }
 /* .project-card h3{
     font-size: 26px;
@@ -403,8 +427,8 @@ color: white;
 
 
 .project-card:hover{
-    background-color: bisque;
-    transform: scaleX(1.0);
+    background-color: aquamarine;
+    transform: translateY(-7px);
 }
 
 .why{
