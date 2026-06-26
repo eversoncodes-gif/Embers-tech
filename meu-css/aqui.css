@@ -412,7 +412,7 @@ section{
 
  .project-img{
     flex: 2;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .project-img img{
     width: 100%;
@@ -422,7 +422,7 @@ section{
 flex: 3;
 margin: 20px;
 text-align: start;
-border: 2px solid green;
+/* border: 2px solid green; */
 }
 .project-content h3{
     padding-bottom:17px;
