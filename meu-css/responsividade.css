@@ -117,6 +117,20 @@ section{
     gap: 20px;
 }
 
+.project-card{
+    flex-direction: column;
+}
+.project-card a{
+    color: white;
+}
+.project-img{
+    box-shadow: 2px 4px -16px;
+    
+}
+.project-img img {
+    border-radius: 15px;
+}
+
 /* teste de esconder documentos */
 /* .esconde{
 display: block;
