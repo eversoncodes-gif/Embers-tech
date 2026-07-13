@@ -130,6 +130,10 @@ section{
 .project-img img {
     border-radius: 15px;
 }
+/* historia respondividade */
+.activities{
+    flex-direction: column;
+}
 
 /* teste de esconder documentos */
 /* .esconde{
