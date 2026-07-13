@@ -405,8 +405,7 @@ section{
 /* aqui e a parte do prpjecto */
 .project{
     /* background-color: aqua; */
-    display: inline-flexbox;
-    text-align: center;
+        text-align: center;
     
 }
 
@@ -445,6 +444,7 @@ section{
 
  .project-img{
     flex: 2;
+    box-shadow: -2px 2px 8px black;
     /* border: 2px solid blue; */
 }
 .project-img img{
